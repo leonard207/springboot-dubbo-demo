@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+dubbo:
+  application:
+    name: springboot-dubbo-provider
+    registry: zookeeper://127.0.0.1:2181
